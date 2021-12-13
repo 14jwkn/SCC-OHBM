@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name=r_OHBM_sub_statecalc
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=7500
+#SBATCH --array=1-8844
+#SBATCH --time=6:30:00
+
+#Force a symbolic link.
+ln -vsf /KIMEL/tigrlab/projects/jng/FLEXCOG/R ~/R
+
+#Read in list of parameters.
+LINE=$(sed -n "$SLURM_ARRAY_TASK_ID"p ${1})
+
+#Load modules.
+module load lang/R/4.0.3-Python-3.8.5-Anaconda3-2020.11
+module load lang/Python
+source ../envs/FlexEnv/bin/activate
+
+#Do each of the parameters in an array.
+Rscript --vanilla r_OHBM_sub_statecalc.R $LINE

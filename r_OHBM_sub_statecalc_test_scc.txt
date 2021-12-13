@@ -1,0 +1,34 @@
+Cores: 1
+CPU Utilized: 04:54:17
+CPU Efficiency: 99.87% of 04:54:40 core-walltime
+Job Wall-clock time: 04:54:40
+Memory Utilized: 6.27 GB
+Memory Efficiency: 85.64% of 7.32 GB
+MaxRSS: 6576844K 
+
+Nodes: 1
+Cores per node: 5
+CPU Utilized: 04:29:18
+CPU Efficiency: 19.96% of 22:29:00 core-walltime
+Job Wall-clock time: 04:29:48
+Memory Utilized: 6.27 GB
+Memory Efficiency: 85.67% of 7.32 GB
+MaxRSS: 6579076K 
+
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 04:43:47
+CPU Efficiency: 9.99% of 1-23:22:00 core-walltime
+Job Wall-clock time: 04:44:12
+Memory Utilized: 6.28 GB
+Memory Efficiency: 85.69% of 7.32 GB
+MaxRSS: 6581304K  
+
+Nodes: 1
+Cores per node: 20
+CPU Utilized: 03:35:35
+CPU Efficiency: 4.99% of 2-23:57:40 core-walltime
+Job Wall-clock time: 03:35:53
+Memory Utilized: 6.27 GB
+Memory Efficiency: 85.67% of 7.32 GB
+MaxRSS: 6579728K
